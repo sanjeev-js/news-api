@@ -33,8 +33,8 @@ yarn start
 
 This will create a build from the source code and serves the requests.
 
-## Download postman collection from [Here](https://www.getpostman.com/collections/78aeec678e3f25e7388d)
+## Use this to link to get postman collection [https://www.getpostman.com/collections/78aeec678e3f25e7388]
 
-## Download postman documentation from [here](https://documenter.getpostman.com/view/17725459/VUqrNcYh)
+## See postman documentation from [here](https://documenter.getpostman.com/view/17725459/VUqrNcYh)
 
 ### Happy Coding!!!
