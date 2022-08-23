@@ -24,9 +24,8 @@ export class NewsController {
       // getting cache data
       const cachedData = await getCache('news', `${search || 'bitcoin'}`);
       if (cachedData !== null) {
-        let result = JSON.parse(cachedData);
         // logger.info('response from cache');
-        return res.status(OK).json(result);
+        return res.status(OK).json(cachedData);
       }
 
       const url = `https://newsapi.org/v2/everything?q=${search || 'bitcoin'}&apiKey=${API_KEY}`;

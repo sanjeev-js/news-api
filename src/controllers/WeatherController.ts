@@ -23,9 +23,8 @@ export class WeatherController {
       // getting cache data
       const cachedData = await getCache('weather', `${inputStr || 'bengaluru-in'}`);
       if (cachedData !== null) {
-        let result = JSON.parse(cachedData);
         // logger.info('response from cache');
-        return res.status(OK).json(result);
+        return res.status(OK).json(cachedData);
       }
 
       const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city || 'bengaluru'},${

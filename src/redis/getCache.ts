@@ -6,7 +6,7 @@ const getCache = async (apiName: string, input: string) => {
   const key = `${apiName}-${input}`;
   const result = await client.get(key);
   if (result) {
-    return result;
+    return JSON.parse(result);
   } else {
     return null;
   }
