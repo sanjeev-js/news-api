@@ -3,7 +3,8 @@
 1. clone the repo and checkout to the `dev` branch
 2. Assuming you have installed nodejs `v14.19.1` and `yarn`
 3. do `yarn` in the root directory for installing all required dependencies
-4. create a .env file in the root directory and update the latest env 
+4. create a .env file in the root directory and update the latest env
+5. Add newsapi key and weather api key in env so that api's work properly
 
 ## Guide to install mysql database
 1. Run `sudo apt update` to update the package index
